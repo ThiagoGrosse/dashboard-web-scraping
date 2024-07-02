@@ -3,16 +3,15 @@
 import { useLoading } from "@/contexts/LoginContext";
 import { useEffect } from "react";
 
-export default function Home() {
+export default function Page() {
     const { setLoading } = useLoading();
 
     useEffect(() => {
         setLoading(false);
     })
-
     return (
         <div>
-            Lista de ofertas
+            Usuários
         </div>
-    );
+    )
 }

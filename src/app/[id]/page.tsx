@@ -3,7 +3,7 @@
 import { useLoading } from "@/contexts/LoginContext";
 import { useEffect } from "react";
 
-export default function Home() {
+export default function Page() {
     const { setLoading } = useLoading();
 
     useEffect(() => {
@@ -12,7 +12,7 @@ export default function Home() {
 
     return (
         <div>
-            Lista de ofertas
+            Pagina de item por ID
         </div>
     );
 }
