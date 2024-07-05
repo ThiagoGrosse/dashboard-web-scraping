@@ -27,7 +27,7 @@ export const Sidebar = () => {
     }, [sidebarOpen, toggleSidebar]);
 
     return (
-        <div ref={sidebarRef} className={`fixed h-full bg-slate-800 transition-all duration-300 ${sidebarOpen ? 'w-52' : 'w-16'}`}>
+        <div ref={sidebarRef} className={`z-20 fixed top-16 h-full overflow-hidden bg-slate-800 transition-all duration-300 ${sidebarOpen ? 'max-w-52' : 'max-w-16'}`}>
             <aside className="grid px-5 py-2 text-white">
 
                 <Link href='/'>

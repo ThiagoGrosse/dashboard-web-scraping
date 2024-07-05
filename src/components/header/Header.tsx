@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Header = () => {
     return (
-        <header className="flex justify-between h-16 bg-gray-200 p-4">
+        <header className="fixed top-0 w-full flex justify-between h-16 bg-gray-200 p-4 z-10">
             <div>
                 <Link href='/'>
                     <span className="relative flex text-[10px]">WEB

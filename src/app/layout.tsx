@@ -25,7 +25,7 @@ export default function RootLayout({
                     <SidebarProvider>
                         <Header />
                         <Sidebar />
-                        <main className="ml-20 mt-4">
+                        <main className="ml-20 my-4 mr-4">
                             {children}
                         </main>
                         <Footer />
